@@ -1,0 +1,16 @@
+body{
+    background-color: purple ;
+}
+
+#ombreBlanche{
+    background-color: blue;
+    box-shadow: -5px -5px 10px white;
+    
+    margin: 40px;
+}
+
+#ombreNoire{
+    background-color: blue;
+    box-shadow: 5px 5px 10px black;
+    padding: 40px;
+}

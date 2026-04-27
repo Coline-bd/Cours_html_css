@@ -1,0 +1,56 @@
+form{
+    width: 400px;
+    height: 250px;
+    background-color: lightgray;
+    border: black solid 2px;
+}
+
+h1{
+    text-align: center;
+    background-color: green;
+}
+
+button{
+    padding: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+.margelabel{
+    margin-left: 30px;
+}
+
+
+#pseudo,#password{
+    margin-left: 20px;
+}
+
+#souvenir{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+div:nth-of-type(1){
+    background-color: red;
+    padding: 5px;
+}
+
+div:nth-of-type(2){
+    background-color: blue;
+    padding: 5px;
+}
+
+
+div:nth-of-type(3){
+    background-color: purple;
+    padding: 5px;
+}
+    
+#bouton{
+    text-align: center;
+    background-color: yellow;
+    margin-top: 20px;
+    padding: 5px;
+}

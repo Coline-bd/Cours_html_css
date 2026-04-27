@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="#">
+            <fieldset>
+                <legend>Infos personnelles</legend>
+                <label for="prenom">Prénom :</label>
+                <input type="text" placeholder="Ex Jacques" name="prénom" minlength="2" maxlength="20" id="prenom">
+                <br/>
+                <label for="nom">Nom :</label>
+                <input type="text" placeholder="Ex Dubois" name="nom" minlength="2" maxlength="20" id="nom">
+                <br/>
+                <label for="mail">E-mail :</label>
+                <input type="email" placeholder="Ex monMail@FAI.com" name="email" id="mail">
+                <br/>
+                <label for="tel">Numéro :</label>
+                <input type="tel" placeholder="Ex 00 11 22 33 44" name="numero" id="tel">
+                <br/>
+                <label for="password">Mot de passe :</label>
+                <input type="password" placeholder="Ex p@ssWord" name="age" minlength="8" maxlength="30" id="password">
+                <br/>
+                <label for="age">Age :</label>
+                <input type="number" placeholder="Ex 15" name="age" id="age">
+                <br/>
+                <label for="commentaire">Laissez un commentaire :</label>
+                <br/>
+                <textarea cols="70" rows="10" placeholder="J'adore ce que vous faites" name="commentaire" id="commentaire"></textarea>
+                <br/>
+                <label for="date">Date de mon commentaire :</label>
+                <input type="date" name="date" id="date">
+                <br/>
+                <label for="photo">Ma photo :</label>
+                <input type="file" name="photo" id="photo" accept=".jp,.png,.gif">
+            </fieldset>
+            <fieldset>
+                <legend>Vous préférez</legend>
+                
+                <input type="checkbox" name="html"  id="html" checked>
+                <label for="html">Le HTML</label>
+                <br/>
+                <input type="checkbox" name="css"  id="css">
+                <label for="css">Le CSS</label>
+                <br/>
+                <input type="checkbox" name="js"  id="js">
+                <label for="js">Le Javascript</label>
+                <br/>
+                <input type="checkbox" name="rien"  id="rien">
+                <label for="rirn">Ne rien faire</label>
+                <br/>
+            </fieldset>
+            <fieldset>
+                <legend>Vous vous levez</legend>
+                <input type="radio" name="radio"  id="matin" checked>
+                <label for="matin">Le matin</label>
+                <br/>
+                <input type="radio" name="radio"  id="midi">
+                <label for="midi">Le midi</label>
+                <br/>
+                <input type="radio" name="radio"  id="soir">
+                <label for="soir">Le soir</label>
+                <br/>
+                <input type="radio" name="radio"  id="retard">
+                <label for="retard">En retard</label>
+                <br/>
+            </fieldset>
+            <fieldset>
+                <legend>Fin du formulaire</legend>
+                <label for="assez">Vous en avez assez ?</label>
+                <select name="assez" id="assez">
+                    <optgroup label="Team pas encore"> 
+                        <option value="J'en veux plus" >J'en veux plus</option>
+                        <option value="C'est super!"  selected>C'est super ! </option>
+                    </optgroup>
+                    <optgroup label="Team Oula"> 
+                        <option value="J'en ai marre">J'en ai marre</option>
+                        <option value="Pitié">Pitié</option>
+                    </optgroup>
+                </select>
+                <br>
+                <button type="submit" value="Envoyer"> Envoyer </button>
+                <button type="reset" value="reset"> Reset </button>
+            </fieldset>
+    </form>
+</body>
+</html>

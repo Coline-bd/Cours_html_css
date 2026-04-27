@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(207, 219, 226);
+    color: rgb(26, 24, 24);
+}
+
+article img{
+    border: 2px gray solid;
+}
+
+.imgArticle{
+    text-align: center;
+    /*display:flex;
+    justify-content: center;*/
+    
+}
+
+header,nav{
+    text-align: center;
+}
+
+header{
+    color: red;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: rgb(139, 138, 138);
+}
+
+footer{
+    text-align: right;
+}
+
+article{
+    border: solid 1px black;
+}
+
+h2{
+    text-decoration-line: underline ;
+    text-decoration-style: dashed;
+}
+
+span{
+    color: red;
+}
+
+fieldset{
+    display:block;
+}
+
