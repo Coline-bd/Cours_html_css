@@ -1,0 +1,21 @@
+
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* justify-items: center; */
+}
+
+li{
+    margin: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
