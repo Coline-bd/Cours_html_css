@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+img:hover{
+    transform: scale(1.5);
+
+}
+
+img{
+    height: 300px;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+}
+
+p{
+    font-size: 50px;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+}
+
+@keyframes monAnimation {
+    0% {
+        transform: scale(1);
+        background-color: rgb(245, 225, 113);
+    }
+    15% {
+        transform: scale(1.5);
+        background-color: rgb(252, 227, 0);
+    }
+    30% {
+        transform: translatex(50px);
+        background-color: rgb(255, 174, 0);
+    }
+    45% {
+        transform: rotate(180deg);
+        background-color: rgb(255, 136, 0);
+    }
+    60% {
+
+        background-color: rgb(255, 51, 0);
+    }
+    75% {
+        transform: scale(2);
+        background-color: red;
+    }
+    100% {
+        transform: scale(1);
+        background-color: rgb(234, 0, 255);
+    }
+}
+
+.animation:hover{
+    animation-name: monAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: ease-in-out;
+}
