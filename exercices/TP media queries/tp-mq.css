@@ -59,35 +59,7 @@ section {
 }
 
 
-@media (max-width: 768px) {
-    header{
-        background-color: aqua;
-    }
-}
 
-@media (max-width: 576px) {
-    header{
-        background-color: yellow;
-    }
-}
-
-@media (max-width: 480px) and (min-width:390px){
-    main{
-        flex-direction: column;
-    }
-    .section-item{
-        flex: 1 1 100%
-    }
-    header{
-        background-color: red;
-    }
-}
-
-@media (min-width: 667px) and (orientation: landscape){
-    header{
-        background-image: linear-gradient(to right, blue 0%, pink 50%);
-    }
-}
 
 section h2 {
     color: #333;
@@ -138,3 +110,39 @@ footer {
     margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+    header{
+        background-color: aqua;
+    }
+    main{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    header{
+        background-color: yellow;
+    }
+    main{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) and (min-width:390px){
+    main{
+        flex-direction: column;
+        padding: 2px;
+    }
+    .section-item{
+        flex: 1 1 100%
+    }
+    header{
+        background-color: red;
+    }
+}
+
+@media (min-width: 667px) and (orientation: landscape){
+    header{
+        background-image: linear-gradient(to right, blue 0%, pink 50%);
+    }
+}
